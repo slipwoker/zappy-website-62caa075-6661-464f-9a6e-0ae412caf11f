@@ -12474,6 +12474,70 @@ nav.navbar .sub-menu li a:hover { color: #D4A853 !important; background-color: r
 .nav-cta-btn { color: #FFFFFF !important; }
 /* === BUTTON TEXT OVERRIDES END === */
 
+
+@keyframes zappy-fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes zappy-slide-up { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes zappy-slide-left { from { opacity: 0; transform: translateX(-30px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes zappy-slide-right { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes zappy-zoom-in { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+@keyframes zappy-bounce { 0% { opacity: 0; transform: translateY(30px); } 60% { opacity: 1; transform: translateY(-5px); } 100% { transform: translateY(0); } }
+@keyframes zappy-flip { from { opacity: 0; transform: perspective(400px) rotateY(90deg); } to { opacity: 1; transform: perspective(400px) rotateY(0); } }
+@keyframes zappy-rotate-in { from { opacity: 0; transform: rotate(-10deg) scale(0.95); } to { opacity: 1; transform: rotate(0) scale(1); } }
+[data-zappy-animate] { opacity: 0; }
+[data-zappy-animate].zappy-animated { opacity: 1; }
+
+
+.index-hero-section .index-hero-bg img {
+  animation: kenBurns 18s ease-in-out infinite !important;
+  transform-origin: center center;
+}
+
+.index-hero-section .index-hero-scrim {
+  background-image: linear-gradient(
+      135deg,
+      rgba(15, 35, 24, 0.55) 0%,
+      rgba(26, 92, 56, 0.25) 40%,
+      rgba(176, 78, 26, 0.12) 70%,
+      rgba(15, 35, 24, 0.0) 100%
+    ),
+    linear-gradient(
+      to top,
+      rgba(15, 35, 24, 0.88) 0%,
+      rgba(15, 35, 24, 0.50) 40%,
+      rgba(15, 35, 24, 0.12) 70%,
+      rgba(15, 35, 24, 0.0) 100%
+    ) !important;
+}
+
+.index-hero-section .index-hero-card {
+  border: 1.5px solid rgba(198, 138, 26, 0.5) !important;
+  box-shadow: 0 8px 40px rgba(15, 35, 24, 0.32), 0 0 0 4px rgba(198, 138, 26, 0.08) !important;
+}
+
+.index-hero-section .index-hero-eyebrow {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+.index-features-section {
+  background: linear-gradient(160deg, #0F2318 0%, #1A3D24 60%, #243D28 100%) !important;
+}
+
+.index-credibility-section {
+  background: linear-gradient(160deg, #F5EDD8 0%, #EDE0C4 50%, #E8D8B8 100%) !important;
+}
+
+.index-services-section {
+  background: linear-gradient(160deg, #3E5440 0%, #2D4230 50%, #1A3020 100%) !important;
+}
+
+.index-journal-section {
+  background: linear-gradient(180deg, #FBF7EE 0%, #F2E8D4 100%) !important;
+}
+
+#layout-1777102631618 h2 {
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+  background-clip: text;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
