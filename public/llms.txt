@@ -1,0 +1,87 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+פורמולות צמחים לאנרגיה ועייפות, ייעוץ אישי וידע אמיתי — בלי קלישאות ניו-אייג׳. גלו גישה ישירה וכנה לבריאות טבעית שמתאימה לחיים שלכם.
+
+### אודות
+https://example.com/about
+יוגב הוא חוקר בריאות עצמאי עם גישה ביקורתית, סקרנית וכנה. למדו על הדרך שהובילה אותו לעולם צמחי המרפא ולמה הגישה שלו שונה מכל מה שהכרתם.
+
+### פורמולות מותאמות אישית
+https://example.com/personalized-formulas
+פורמולות צמחים לאנרגיה ועייפות, סטרס, שינה ועוד — מותאמות אישית לגוף ולצרכים שלכם. לא מדף, לא גנרי. פורמולה שעובדת כי היא שלכם.
+
+### הדרכה
+https://example.com/guidance
+ייעוץ תזונה טבעית אישי אחד-על-אחד שמתמקד בחיים האמיתיים שלכם. נבנה יחד תוכנית שמשלבת צמחי מרפא, תזונה ואורח חיים — בלי הבטחות ריקות.
+
+### יומן
+https://example.com/journal
+מאמרים על צמחי מרפא לסטרס וחרדה טבעי, תזונה, אנרגיה ואורח חיים — כתובים בגובה העיניים, בלי עיטורים. דעה, מחקר ותובנות שיגרמו לכם לחשוב אחרת.
+
+### צור קשר
+https://example.com/contact
+רוצים לשמוע עוד על פורמולות מותאמות, ייעוץ תזונה טבעית אישי או סתם לשאול שאלה? כתבו ליוגב ישירות — הוא עונה בעצמו, בלי נציגי שירות ובלי תסריטים.
+
+### Products
+https://example.com/products
+המוצרים שלנו - יוגב בריאות טבעית
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - יוגב בריאות טבעית
+
+### Category
+https://example.com/category/:slug
+מוצרים - יוגב בריאות טבעית
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
